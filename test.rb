@@ -1,5 +1,5 @@
  p "Hello wold!" 
- a = 10 ; 
+ a = 30 ; 
  b = 12;
  c = a +b ; 
               puts c ; 
