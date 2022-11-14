@@ -12,4 +12,6 @@
 print <<`EOC1`                 # execute commands
 	echo hi there
 	echo lo there
-EOC
+EOC 
+
+abhi = ["Tiger", "Great White", "Hammerhead", "Angel"] 
