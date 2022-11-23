@@ -1,38 +1,38 @@
-# class Fruit 
-#     # attr_reader  :prise  , :name 
-#     # attr_writer :prise , :name 
-#      attr_accessor :prise ,:name 
-#     def initialize(prise,name) 
-#          @prise = prise 
-#         @name = name 
-#     end  
-# #     def prise 
-# #     return @prise
-#    end 
-#     def name 
-#         return @name
-#     end  
+class Fruit 
+    # attr_reader  :prise  , :name 
+    # attr_writer :prise , :name 
+     attr_accessor :prise ,:name 
+    def initialize(prise,name) 
+         @prise = prise 
+        @name = name 
+    end  
+#     def prise 
+#     return @prise
+   end 
+    def name 
+        return @name
+    end  
 
-    #  ---------------------- Setters...........................
-    #  def prise= (new_prise) 
-    #     @prise=new_prise 
-    #     return @prise
-    #  end  
+     ---------------------- Setters...........................
+     def prise= (new_prise) 
+        @prise=new_prise 
+        return @prise
+     end  
 
-    #  def name= (new_name) 
-    #     @name = new_name 
-    #     return @name
-    # end 
-# end 
+     def name= (new_name) 
+        @name = new_name 
+        return @name
+    end 
+end 
 
-# fruit = Fruit.new("prise of fruit 50" , "aam")  
-# # #  puts fruit 
-#  puts fruit.name 
-# #  puts fruit.prise  
+fruit = Fruit.new("prise of fruit 50" , "aam")  
+# #  puts fruit 
+ puts fruit.name 
+#  puts fruit.prise  
 
 
-#    fruit.name = "mango"
-# puts fruit.name   
+   fruit.name = "mango"
+puts fruit.name   
 
 
 
